@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Snippet Cheatsheet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>
+      Ever had trouble recalling the exact syntax for your favoutir CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy. Add some box styling to the product cards to make them POP!
+    </p>
+  </header>
+
+  <main> 
+    <div class="product">
+      <section class="card">
+        <header2>Flexbox Row</header2>
+        <header3>Use these three properties to create a Flexbox row layout</header3> 
+        <p>.row {
+            display: flex; 
+            flex-direction: row; 
+            flex-wrap: wrap;
+          }
+        </p>
+      </section>
+    <section class="card">
+      <header2>Flexbox Column</header2>
+      <header3>Use these to create a Flexbox column layout</header3> 
+      <p>.column {
+            display: flex; 
+            flex-direction: column; 
+          }
+      </p>
+    </section>
+    <section class="card">
+      <header2>CSS Grid Layout</header2>
+      <header3>Build a 12-column layout using CSS Grid</header3> 
+      <p>.grid {
+            display: grid;
+            width: 100%; 
+            grid-template-columns: 
+          repeat(12, 1 fr);
+          }
+      </p>
+    </section>
+    <section class="card">
+      <header2>Linear Gradients</header2>
+      <header3>This will create a background inear gradient from top to bottom</header3> 
+      <p>.linear-gradient-background {
+          }
+      </p>
+    </section>
+    <section class="card">
+      <header2>Box Transition Glow</header2>
+      <header3>Use transition and box shadoes to glow on hover</header3> 
+      <p>.code-card {
+          }
+      </p>
+    </section>
+    <section class="card">
+      <header2>Overlay Card with Title</header2>
+      <header3>Use position properties and negative margins to raise elements higher than their natural starting point</header3> 
+      <p>.card-header{
+          }
+      </p>
+    </section>
+    </div>
+  </main>
+  
+  <footer class="footer"> 
+    <h2>Made with ❤️️ and CSS</h2>
+  </footer>
+</body>
+
+</html>
